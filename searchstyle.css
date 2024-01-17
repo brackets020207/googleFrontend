@@ -3,13 +3,13 @@ body {
 }
 
 .menu_btn {
-    margin: 20px;
+    margin: 0px 20px;
     height: 50px;
     width: 200px;
     background-color: #3772FF;
     border-radius: 25px;
     border: none;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
 
 .menu_btn:hover {
@@ -25,6 +25,7 @@ body {
 #bar {
     width: 500px;
     height: 30px;
+    padding: 5px;
     border-radius: 10px;
     margin:auto;
 }
@@ -34,12 +35,23 @@ body {
     height: 30px; 
 }
 
+
 .main_display_text {
     color: #BDBBB0;
     text-align: center;
     font-size: 72px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0px;
 }
 .link {
     display:inline-block;
+}
+
+.advanced_bar {
+    width: 400px;
+    height: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
 }

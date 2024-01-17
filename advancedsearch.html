@@ -22,7 +22,32 @@
 
         <h1 class = "main_display_text">really advanced search</h1>
         <form id = "searchBar" action="https://www.google.com/search">
-            <input id = "bar" type="text" name="q">
+            <input class = "advanced_bar" type="text" name="as_q" placeholder = "include all these words">
+            <input class = "advanced_bar" type="text" name="as_epq" placeholder = "this exact phrase">
+            <input class = "advanced_bar" type="text" name="as_oq" placeholder = "any of these words">
+            <input class = "advanced_bar" type="text" name="as_eq" placeholder = "none of these words">
+            <input class = "advanced_bar" type="text" name="as_sitesearch" placeholder = "this website/domain">
+            <div> 
+                <input class = "advanced_drop_down" list="filetypes" name="as_filetype" placeholder = "this filetype">
+                <datalist id = "filetypes">
+                    <option value = "pdf">
+                    <option value = "ppt">
+                    <option value = "doc">
+                    <option value = "xls">
+                    <option value = "kmz">
+                    <option value = "kml">
+                </datalist>
+
+                <input class = "advanced_drop_down" list="date" name="as_qdr" placeholder = "this time period">
+                <datalist id = "date">
+                    <option value = "d">up to the last 24 hours</option>
+                    <option value = "w">up to last week</option>
+                    <option value = "m">up to last month</option>
+                    <option value = "y">up to last year</option>
+                    
+                </datalist>
+            </div>
+            
             <input id = "searchButton" type="submit" value="Advanced Search">
         </form>
     </body>
