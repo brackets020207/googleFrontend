@@ -19,9 +19,12 @@
                 <button class = "menu_btn">Image Search</button>
             </a>
         </div> 
-
-        <h1 class = "main_display_text">really advanced search</h1>
-        <form id = "searchBar" action="https://www.google.com/search">
+        <div>
+            <h1 class = "main_display_text">really advanced search</h1>
+            <p class = "info_text">leave field blank if you have no preference</p>
+        </div>
+        
+        <form id = "searchBar" autocomplete="off" action="https://www.google.com/search">
             <input class = "advanced_bar" type="text" name="as_q" placeholder = "include all these words">
             <input class = "advanced_bar" type="text" name="as_epq" placeholder = "this exact phrase">
             <input class = "advanced_bar" type="text" name="as_oq" placeholder = "any of these words">
