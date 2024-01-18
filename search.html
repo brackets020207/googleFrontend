@@ -24,8 +24,12 @@
 
 
         <form id = "searchBar" action="https://www.google.com/search">
-            <input id = "bar" type="text" name="q">
-            <input id = "searchButton" type="submit" value="Google Search">
+            <input id = "bar" autocomplete = "off" type="text" name="q">
+            <div class = "default_search_buttons">
+                <input class = "searchButton" type="submit" value="Google Search">
+                <input class = "searchButton" type="submit" value="I'm feeling lucky" name = "btnI">
+            </div>
+            
         </form>
     </body>
 </html>

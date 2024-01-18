@@ -22,9 +22,12 @@
 
         <h1 class = "main_display_text">IMAGES!</h1>
         <form id = "searchBar" action="https://www.google.com/search">
-            <input id = "bar" type="text" name="q">
+            <input id = "bar" autocomplete = "off" type="text" name="q">
             <input type = "hidden" name = "tbm" value = "isch">
-            <input id = "searchButton" type="submit" value="Image Search">
+            <div>
+                <input class = "searchButton" type="submit" value="Image Search">
+            </div>
+            
         </form>
     </body>
 </html>
